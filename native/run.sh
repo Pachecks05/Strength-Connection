@@ -1,6 +1,6 @@
 #!/system/bin/sh
 # Checking ID shell
-if [ "$(id -u)" -ne 0 ] && [ "$(id -u)" -ne 2000 ]; then
+if [ "$(u0_a325 -u)" -ne 0 ] && [ "$(u0_a325 -u)" -ne 2000 ]; then
 	printf "[ Eror |@Yeye_nat(Yeye)]\n"
    exit 1
 fi
